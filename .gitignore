@@ -1,0 +1,9 @@
+# Cordova
+/platforms
+/plugins
+/node_modules
+
+GoogleService-Info.plist
+GoogleService-Info.plist.*
+google-services.json
+google-services.json.*

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="APP_BUNDLE" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SOL Fornecedor</name>
+    <description>
+        Sistema Online de Licitação
+    </description>
+    <author email="EMAIL" href="WEBSITE">
+      PROJECT_NAME
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+            <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
+            <meta-data android:name="firebase_crash_collection_enabled" android:value="false" />
+        </config-file>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <edit-config overwrite="true" parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED" platform="ios" target="*-Info.plist">
+            <boolean>YES</boolean>
+        </edit-config>
+    </platform>
+    <plugin name="cordova-plugin-firebase" spec="^2.0.5" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="^7.1.2" />
+</widget>
