@@ -1,4 +1,4 @@
-# Aplicação para gerenciar os builds hibridos do repósitório sdc-supplier-frontend
+# Aplicação para gerenciar os builds hibridos do repósitório sol-supplier-frontend
 
 ```
 npm -version
@@ -11,7 +11,7 @@ cordova --version
 8.1.2 (cordova-lib@8.1.1)
 ```
 
-- Criar symlink da pasta `/dist` - `ln -s ../sdc-supplier-frontend/dist www`
+- Criar symlink da pasta `/dist` - `ln -s ../sol-supplier-frontend/dist www`
 - Adicionar plataforma iOS `cordova platform add ios@4.5.5`
 - Adicionar plataforma Android `cordova platform add android@7.1.2`
 - Listar plataformas instaladas `cordova platform ls`
@@ -64,7 +64,7 @@ cordova.system.library.5=com.google.firebase:firebase-perf:16.2.4
 - Em alguns casos é necessário execurar `cordova clean android` para atualizar o processo de build
 
 # Passo a passo para criar builds android/ios
-- Buildar a aplicação do repositório `sdc-supplier-frontend` com `yarn run build`
+- Buildar a aplicação do repositório `sol-supplier-frontend` com `yarn run build`
 - Criar build android `cordova build android`
 - Criar build iOS `cordova build ios` (`cordova run ios` para rodar o build no simulador do xcode)
 
