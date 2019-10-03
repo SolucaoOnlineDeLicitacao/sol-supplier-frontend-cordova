@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="APP_BUNDLE" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="br.gov.ba.car.sol.supplier" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>SOL Fornecedor</name>
     <description>
         Sistema Online de Licitação
     </description>
-    <author email="EMAIL" href="WEBSITE">
-      PROJECT_NAME
+    <author email="suporteapp.car@gmail.com" href="http://www.car.ba.gov.br">
+        CAR - Companhia Desenv. Ação Regional
     </author>
     <content src="index.html" />
     <access origin="*" />
