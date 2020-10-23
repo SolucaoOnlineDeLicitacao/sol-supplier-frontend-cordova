@@ -1,7 +1,7 @@
 {
     "name": "sol-supplier",
     "displayName": "SOL Fornecedor",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Sistema Online de Licitação",
     "main": "index.js",
     "scripts": {
