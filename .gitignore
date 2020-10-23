@@ -7,3 +7,5 @@ GoogleService-Info.plist
 GoogleService-Info.plist.*
 google-services.json
 google-services.json.*
+app-release.apk
+android.keystore
